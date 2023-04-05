@@ -1,20 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        int x = 2500;
-        int y = x / 100;System.out.println("Бонус");
-        System.out.println(x / 100);
-        int z = 200;
-        if (x > 1000) { System.out.println("Баланс");
-            System.out.println(x + y + z);
-
+        int refill = 2500;
+        int bonus = refill / 100;
+        System.out.println("Бонус");
+        System.out.println(refill / 100);
+        int balance = 200;
+        if (refill > 1000) {
+            System.out.println("Баланс");
+            System.out.println(refill + bonus + balance);
         } else {
-            System.out.println(x + z);
-
+            System.out.println(refill + balance);
         }
-
-        int bonus = y;
-
-
     }
 }
 
